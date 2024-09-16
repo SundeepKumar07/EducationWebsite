@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1050px) {
+    .navList{
+        flex-direction: column;
+    }
+    .navList li {
+        font-size: 18px;
+        margin: 3px;
+    }
+
+    .navbar{
+        padding-top: 12px;
+        font-size: 12px;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 170px;
+    }
+
+    #logo {
+        position: absolute; /* Take it out of the normal flow */
+        left: 10px; /* Adjust distance from the left edge as needed */
+    }
+
+    .search{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 32px;
+        
+    }
+    .search input{
+        width: 110px;
+        display: block;
+        margin: auto;
+    }
+
+    .search .btm{
+        width: 110px;
+        margin: 5px auto;
+    }
+    .burger{
+        display: block;
+    }
+    .h_nav_resp{
+        height: 39px;
+    }
+    .v_class_resp{
+        visibility: hidden; /*or opacity:0;*/
+    }
+    .firstSection {
+        height: 110vh;
+    }
+    .firstHalf .textBig {
+        font-size: 36px;
+    }
+    .boxMain{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .secondSection{
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+    .sec2_resp{
+        flex-direction: column;
+    }
+    .textBig{
+        text-align: center;
+    }
+    .textSmall{
+        text-align: center;
+    }
+    .comb_btm{
+        text-align: center;
+    }
+    .myinput {
+        height: 20px;
+    }
+    .btm {
+        font-size: 16px;
+        height: 3px;
+    }
+}
