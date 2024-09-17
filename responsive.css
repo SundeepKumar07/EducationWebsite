@@ -12,7 +12,7 @@
         font-size: 12px;
         flex-direction: column;
         transition: all 0.3s ease-out;
-        height: 170px;
+        height: 160px;
     }
 
     #logo {
@@ -39,15 +39,16 @@
     }
     .burger{
         display: block;
+        width: 40px;
     }
     .h_nav_resp{
-        height: 39px;
+        height: 35px;
     }
     .v_class_resp{
         visibility: hidden; /*or opacity:0;*/
     }
     .firstSection {
-        height: 110vh;
+        height: 95vh;
     }
     .firstHalf .textBig {
         font-size: 36px;
@@ -65,9 +66,10 @@
     }
     .textBig{
         text-align: center;
+        font-size: 30px;
     }
     .textSmall{
-        text-align: center;
+        text-align: justify;
     }
     .comb_btm{
         text-align: center;
